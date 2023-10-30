@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 234, 234);
+}
+
+.container {
+    width: 100%;
+    max-width: 21cm; /* Tamaño A4 */
+    margin: 2 auto;
+}
+
+.left-column {
+    background-color: #0d4f92; /* Azul marino */
+    width: 30%; /* 1/3 de la página */
+    float: left;
+    height: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.left-column img {
+    display: block;
+    margin: 0 auto;
+    width: 150px; /* Tamaño de la foto de perfil */
+    border-radius: 50%;
+}
+
+.left-column .info {
+    margin-top: 20px;
+}
+
+.left-column h2 {
+    font-size: 18px;
+    color: #fff; /* Color de texto para datos personales, idiomas y herramientas */
+}
+
+.left-column p {
+    font-size: 16px;
+    color: #ccc; /* Color de texto para contenido en la franja azul */
+}
+
+.right-column {
+    float: left;
+    width: 70%; /* 2/3 de la página */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.right-column h1 {
+    font-size: 24px;
+    color: #333; /* Color de texto para nombre */
+}
+
+.right-column h2 {
+    font-size: 18px;
+    color: #666; /* Color de texto para información personal, educación y experiencia profesional */
+}
+
+.section {
+    margin-top: 20px;
+}
+
